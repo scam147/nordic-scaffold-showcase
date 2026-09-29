@@ -344,7 +344,7 @@ function Contact() {
         <h2 className="mt-2 font-display text-3xl sm:text-4xl">Potrebujete lešenie?</h2>
         <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
           Píšeme po celom Švédsku — priemysel, fasády aj nové projekty. Zavolajte
-          nám a dohodneme si Termín, všetko ostatné vyriešime my.
+          nám a dohodneme si termín, všetko ostatné vyriešime my.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
           <a
@@ -367,7 +367,7 @@ function Contact() {
             <MapPin className="size-4 text-primary" /> Z Kysúc do Švédska — a čoskoro ďalej
           </span>
           <span className="inline-flex items-center gap-2">
-            <Clock className="size-4 text-primary" /> Vstúpime kedykoľvek počas roka
+            <Clock className="size-4 text-primary" /> Dlhodobé projekty aj krátke akcie
           </span>
         </div>
       </div>
