@@ -341,10 +341,10 @@ function Contact() {
     <section id="kontakt" className="border-t border-border bg-card/50">
       <div className="mx-auto max-w-6xl px-4 py-16 text-center lg:py-20">
         <p className="text-sm font-bold uppercase tracking-widest text-secondary">Kontaktuj nás</p>
-        <h2 className="mt-2 font-display text-3xl sm:text-4xl">Prihláste sa do tímu</h2>
+        <h2 className="mt-2 font-display text-3xl sm:text-4xl">Potrebujete lešenie?</h2>
         <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
-          Hľadáte istú prácu v zahraničí? Zavolajte alebo napíšte — dohodneme
-          si Termín a všetko ostatné máte hradené.
+          Píšeme po celom Švédsku — priemysel, fasády aj nové projekty. Zavolajte
+          nám a dohodneme si Termín, všetko ostatné vyriešime my.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
           <a
