@@ -27,12 +27,15 @@ npm run dev
 
 ## Deploying to GitHub Pages
 
-The repo includes a workflow (`.github/workflows/deploy.yml`) that builds the static site and deploys it to GitHub Pages on every push to `main`.
+The ready-built website is kept in the `docs/` folder (including `CNAME` for www.stallningar.suty.sk and `.nojekyll`).
 
-One-time setup in the GitHub repository:
+GitHub setup: **Settings → Pages → Source: Deploy from a branch → Branch: `main`, folder: `/docs` → Save.**
 
-1. Go to **Settings → Pages**.
-2. Under **Build and deployment → Source**, select **GitHub Actions** (not "Deploy from a branch").
-3. Push to `main` (or run the workflow manually from the Actions tab).
+After changing the site, rebuild and refresh `docs/`:
 
-The site will be live at `https://<your-username>.github.io/<repository-name>/`. Asset paths are relative, so it works from the project subpath without extra config.
+```sh
+npm run build
+rm -rf docs && cp -r dist/client docs && touch docs/.nojekyll && echo "www.stallningar.suty.sk" > docs/CNAME
+```
+
+Alternatively, `.github/workflows/deploy.yml` can build automatically if Source is set to **GitHub Actions**.
