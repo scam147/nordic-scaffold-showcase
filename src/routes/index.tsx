@@ -343,7 +343,7 @@ function Contact() {
         <p className="text-sm font-bold uppercase tracking-widest text-secondary">Kontaktuj nás</p>
         <h2 className="mt-2 font-display text-3xl sm:text-4xl">Potrebujete lešenie?</h2>
         <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
-          Píšeme po celom Švédsku — priemysel, fasády aj nové projekty. Zavolajte
+          Pracujeme po celom Švédsku — priemysel, fasády aj nové projekty. Zavolajte
           nám a dohodneme si termín, všetko ostatné vyriešime my.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
