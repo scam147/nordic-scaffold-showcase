@@ -35,7 +35,7 @@ After changing the site, rebuild and refresh `docs/`:
 
 ```sh
 npm run build
-rm -rf docs && cp -r dist/client docs && touch docs/.nojekyll && echo "www.stallningar.suty.sk" > docs/CNAME
+rm -rf docs && cp -r .output/public docs && touch docs/.nojekyll && echo "www.stallningar.suty.sk" > docs/CNAME
 ```
 
 Alternatively, `.github/workflows/deploy.yml` can build automatically if Source is set to **GitHub Actions**.
