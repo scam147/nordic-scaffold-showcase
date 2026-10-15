@@ -8,3 +8,4 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+- `docs/` holds a committed copy of the static build (dist/client + CNAME + .nojekyll) for GitHub Pages "Deploy from branch /docs"; regenerate it after site changes because the GitHub Actions workflow may not run.
