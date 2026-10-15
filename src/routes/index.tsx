@@ -29,7 +29,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Lešenárska firma Marek Ställningar: priemysel aj fasády v Švédsku, čoskoro Nórsko a Dánsko. Doprava aj ubytovanie hradené, 100 EUR/h. Zavolajte +421 915 330 901.",
+          "Lešenárska firma Marek Ställningar: priemysel aj fasády v Švédsku, čoskoro Nórsko a Dánsko. Doprava aj ubytovanie hradené, 100 EUR/h. Zavolajte +421 912 699 669.",
       },
       { property: "og:title", content: "Marek Ställningar — Lešenárske práce v Švédsku" },
       {
@@ -131,7 +131,7 @@ function Header() {
           className="inline-flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-sm font-bold text-primary-foreground transition-transform hover:scale-105"
         >
           <Phone className="size-4" />
-          <span className="hidden sm:inline">+421 915 330 901</span>
+          <span className="hidden sm:inline">+421 912 699 669</span>
           <span className="sm:hidden">Zavolať</span>
         </a>
       </div>
@@ -352,7 +352,7 @@ function Contact() {
             className="inline-flex items-center gap-3 rounded-full bg-primary px-8 py-4 font-display text-xl text-primary-foreground transition-transform hover:scale-105"
           >
             <Phone className="size-6" />
-            +421 915 330 901
+            +421 912 699 669
           </a>
           <a
             href="https://marekstallningar.sk"
